@@ -1,0 +1,32 @@
+body {
+	background-color: bisque;
+}
+
+a {
+	text-decoration: none;
+}
+
+.link {
+	color: cornflowerblue;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+/*не должно быть применен в двух местах страницы
+приоритетнее класса*/
+#title {
+	color: chartreuse;
+}
+.title {
+	color: #222222;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 500;
+}
+.text {
+   font-style: italic;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 30px;
+   color: #7d7987;
+}
