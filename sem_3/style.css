@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+
+/* Знак * обращается ко всем элементам html */
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	background: #020a18;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+h1,   
+h2,
+p,
+button,
+a {
+	color: white;
+   font-family: "Open Sans", sans-serif;
+}
+
+.container {
+   max-width: 1146px;
+}
+
+/* Закончила на 1:35 */

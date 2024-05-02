@@ -1,0 +1,19 @@
+/* Начальный шаблон */
+
+
+
+/* Знак * обращается ко всем элементам html */
+* {
+	margin: 0;
+	padding: 0;
+   text-decoration: none;
+}
+
+body {
+   scroll-behavior: smooth;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+}
