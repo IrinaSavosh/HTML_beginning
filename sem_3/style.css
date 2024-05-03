@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap");
 
 /* Знак * обращается ко всем элементам html */
 * {
@@ -16,17 +16,79 @@ img {
 	display: block;
 	max-width: 100%;
 }
-h1,   
+h1,
 h2,
 p,
 button,
 a {
 	color: white;
-   font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
 }
 
 .container {
-   max-width: 1146px;
+	max-width: 1146px;
+	margin: 0 auto;
 }
 
-/* Закончила на 1:35 */
+.header {
+	padding: 39px 0;
+	margin-bottom: 160px;
+}
+
+.navigation {
+}
+
+.navigation a {
+	font-size: 16px;
+}
+
+.main {
+	margin-bottom: 197px;
+}
+
+.mainContent {
+}
+
+.mainContent_leftSide {
+}
+
+.mainContent_leftSide h2 {
+	font-size: 18px;
+	line-height: 160%;
+	color: #3a68b8;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.mainContent_leftSide h1 {
+	font-size: 55px;
+	font-weight: 800;
+	line-height: 130%;
+}
+
+.mainContent_leftSide p {
+	opacity: 0.7;
+	font-size: 18px;
+	line-height: 160%;
+	margin-bottom: 50px;
+}
+
+.mainContent_leftSide-btnList {
+}
+
+.mainContent_leftSide-btnList button {
+	padding: 15px 30px;
+	border-radius: 5px;
+	background: #3a68b8;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.footer {
+	margin-bottom: 100px;
+}
+
+.logos {
+}
