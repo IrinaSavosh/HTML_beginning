@@ -1,0 +1,100 @@
+@font-face {
+	font-family: "Gilroy-Bold";
+	src: url("./fonts/Gilroy-Bold.woff") format("woff");
+	/* font-style: normal;
+	font-weight: normal; */
+}
+@font-face {
+	font-family: "Gilroy-Medium";
+	src: url("./fonts/Gilroy-Medium.woff") format("woff");
+	/* font-style: normal;
+	font-weight: normal; */
+}
+
+/* Начальный шаблон */
+
+/* Знак * обращается ко всем элементам html */
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	background: rgb(255, 255, 255);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	/* padding: 40px 0; */
+	margin-top: 40px;
+	margin-bottom: 84px;
+}
+
+.headerLink {
+	padding: 11px 0;
+}
+
+.main {
+	margin-bottom: 163px;
+}
+
+h1 {
+	color: rgb(0, 0, 0);
+	font-family: "Gilroy-Bold";
+	font-size: 60px;
+	font-weight: 400;
+	line-height: -1px;
+	/* src: url("./fonts/Gilroy-Bold.woff") format("woff"); */
+	text-align: left;
+}
+
+.margineP {
+	margin-top: 17px;
+	margin-bottom: 37px;
+}
+
+p {
+	color: rgb(136, 136, 136);
+	font-family: "Gilroy-Medium";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: -1px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.btnStart {
+	border-radius: 50px;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	background: rgb(242, 88, 34);
+	padding: 16px 35px;
+}
+
+.btnStartText {
+	color: rgb(255, 255, 255);
+	font-family: "Gilroy-Bold";
+	font-size: 15px;
+	font-weight: 400;
+	border: none;
+}
+
+.btnWatchText {
+	color: rgb(170, 170, 170);
+   background-color: rgb(255, 255, 255);
+	font-family: "Gilroy-Bold";
+	font-size: 15px;
+	font-weight: 400;
+   border: none;
+   margin-left: 72px;
+}
