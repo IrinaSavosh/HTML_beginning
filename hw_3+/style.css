@@ -39,6 +39,9 @@ img {
 	/* padding: 40px 0; */
 	margin-top: 40px;
 	margin-bottom: 84px;
+	font-family: "Gilroy-Medium";
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .headerLink {
@@ -54,7 +57,7 @@ h1 {
 	font-family: "Gilroy-Bold";
 	font-size: 60px;
 	font-weight: 400;
-	line-height: -1px;
+	/* line-height: -1px; */
 	/* src: url("./fonts/Gilroy-Bold.woff") format("woff"); */
 	text-align: left;
 }
@@ -62,6 +65,7 @@ h1 {
 .margineP {
 	margin-top: 17px;
 	margin-bottom: 37px;
+	/* max-width: 400px; */
 }
 
 p {
@@ -69,8 +73,8 @@ p {
 	font-family: "Gilroy-Medium";
 	font-size: 20px;
 	font-weight: 400;
-	line-height: -1px;
-	letter-spacing: 0%;
+	/* line-height: -1px; */
+	/* letter-spacing: 0%; */
 	text-align: left;
 }
 
@@ -79,6 +83,7 @@ p {
 	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
 	background: rgb(242, 88, 34);
 	padding: 16px 35px;
+	cursor: pointer;
 }
 
 .btnStartText {
@@ -91,10 +96,11 @@ p {
 
 .btnWatchText {
 	color: rgb(170, 170, 170);
-   background-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
 	font-family: "Gilroy-Bold";
 	font-size: 15px;
 	font-weight: 400;
-   border: none;
-   margin-left: 72px;
+	border: none;
+	margin-left: 72px;
+	cursor: pointer;
 }
