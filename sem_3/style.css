@@ -37,6 +37,9 @@ a {
 }
 
 .navigation {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
 }
 
 .navigation a {
@@ -48,9 +51,12 @@ a {
 }
 
 .mainContent {
+	display: flex;
+	justify-content: space-between;
 }
 
 .mainContent_leftSide {
+	max-width: 604px;
 }
 
 .mainContent_leftSide h2 {
@@ -72,9 +78,18 @@ a {
 	font-size: 18px;
 	line-height: 160%;
 	margin-bottom: 50px;
+	max-width: 558px;
 }
 
 .mainContent_leftSide-btnList {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.btn_play{
+	display: flex;
+	gap: 10px;
 }
 
 .mainContent_leftSide-btnList button {
@@ -91,4 +106,6 @@ a {
 }
 
 .logos {
+	display: flex;
+	justify-content: space-between;
 }
