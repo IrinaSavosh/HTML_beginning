@@ -236,3 +236,7 @@ p {
 	font-weight: 400;
 	margin: 15px 46px;
 }
+
+@media (min-width: 84px) and (max-width: 1146px){
+	
+}
