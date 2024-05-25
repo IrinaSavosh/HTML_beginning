@@ -129,6 +129,7 @@ p {
 }
 
 .cardList {
+	background-color: rgb(250, 250, 250);
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 }
@@ -238,5 +239,5 @@ p {
 }
 
 @media (min-width: 84px) and (max-width: 1146px){
-	
+
 }

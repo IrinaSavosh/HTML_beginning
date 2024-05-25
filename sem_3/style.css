@@ -149,7 +149,7 @@ a {
 	font-weight: 160%;
 }
 
-@media (min-width: 84px) and (max-width: 1146px) {
+@media (min-width: 848px) and (max-width: 1146px) {
 	.container {
 		max-width: 768px;
 	}
@@ -183,6 +183,76 @@ a {
 
 	.card {
 		max-width: 362px;
+		background-color: #101725;
+	}
+}
+
+@media (max-width: 847px) {
+	.container {
+		max-width: 343px;
+	}
+
+	.header {
+		padding: 23px 0;
+		margin-bottom: 64px;
+	}
+
+	.navigation {
+		gap: 16px;
+	}
+	.navigation a {
+		font-size: 14px;
+		align-items: center;
+	}
+
+	.mainContent {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mainContent_leftSide {
+		max-width: 343px;
+	}
+
+	.mainContent_leftSide h2 {
+		font-size: 14px;
+		margin-bottom: 64px;
+	}
+
+	.mainContent_leftSide h1 {
+		font-size: 18px;
+		margin-bottom: 64px;
+	}
+
+	.mainContent_leftSide p {
+		margin-bottom: 39px;
+		max-width: 343px;
+	}
+
+	.mainContent_leftSide-btnList{
+		gap: 24px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.logos{
+		flex-direction: column;
+		justify-content: center;
+		gap: 32px;
+		align-items: center;
+	}
+
+	.cardList {
+		grid-template-columns: 1fr;
+		gap: 32px;
+		justify-items: center;
+	}
+	.hideCard {
+		display: none;
+	}
+
+	.card {
+		max-width: 343px;
 		background-color: #101725;
 	}
 }
