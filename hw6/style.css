@@ -306,6 +306,8 @@ img {
 
 	.item4{
 		height: 111px;
+		/* background-position: center; */
+		object-fit: cover;
 	}
 
 	.categoryP {
