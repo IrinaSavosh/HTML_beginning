@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.menu__link:hover {
+	color: red;
+}
+
+.menu__link:active {
+	color: green;
+}
+
+.menu__list:first-child {
+	text-decoration: underline;
+}
+
+.menu__list:last-child {
+	font-weight: bold;
+}
+
+.menu__list:nth-child(3) {
+	background-color: orange;
+}
+
+.product {
+	width: 250px;
+	padding: 24px;
+	border: 1px solid #000;
+}
+
+.product__img {
+	background-color: forestgreen;
+	height: 150px;
+	position: relative;
+}
+
+.product__img::after {
+	content: "new";
+	/*приклеивает new в определенном месте*/
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.product__img::before {
+	content: url(./icon/ghost-solid.svg);
+	position: absolute;
+	background-color: red;
+	padding: 10px;
+	top: -10px;
+}
+/* При наличии fill в коде svg */
+/* svg:hover path{
+	transform: scale(2);
+   fill: red;
+} */
+
+svg:hover {
+	transform: scale(2);
+	fill: red;
+}
+svg:active {
+	fill: yellowgreen;
+}
+
+/* .item {
+	width: 150px;
+	height: 86px;
+	background-color: yellow;
+	border: 1px solid #000;
+	transition: transform 0.5s;
+}
+
+.item_1:hover {
+	transform: translateX(50px) rotate(360deg); 
+}
+
+.item_2:hover {
+	transform: scale(1.2) rotate(360deg);
+}
+.item_3:hover {
+   transform: rotate(-60deg);
+   } */
+/*___________________________________*/
+/* .content {
+	margin-top: 200px;
+	margin-left: 200px;
+	position: relative;
+}
+
+.item {
+	position: absolute;
+	width: 150px;
+	height: 64.5px;
+	border-left: 2px solid #000;
+   border-right: 2px solid #000;
+
+}
+
+.item_2 {
+	transform: rotate(90deg);
+}
+.item_3 {
+	transform: rotate(135deg);
+}
+.item_4 {
+	transform: rotate(45deg);
+} */
+
+
+
+/*_____________________________________*/
+
+
+
+
+
+.rotate-center {
+	animation: rotate-center 0.6s ease-in-out both;
+}
+
+@keyframes rotate-center {
+   0% {
+     transform: rotate(0);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+
+ .button {
+   width: 150px;
+   height: 50px;
+   background-color: purple;
+   color: white;
+   text-align: center;
+   line-height: 50px;
+   font-family: sans-serif;
+   font-size: 18px;
+   animation: rotate-center 3s ease-in-out both;
+   /* cubic-bezier(0.455, 0.030, 0.515, 0.955) */
+   /* infinite both; */
+   margin: 50px;
+ }
