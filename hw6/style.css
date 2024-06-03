@@ -50,12 +50,30 @@ img {
 
 .cont2 {
 	min-width: 169px;
+	position: relative;
 }
 
 .btn {
 	background: transparent;
 	background-color: rgb(34, 34, 34, 0);
 	border: none;
+}
+
+.five {
+	border-radius: 80px;
+	background-color: rgb(241, 109, 127);
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+
+.text_five {
+	color: rgb(255, 255, 255);
+	font-family: Lato;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+	padding: 3px 5px;
 }
 
 /* "----section-------" */
@@ -161,6 +179,11 @@ img {
 	max-width: 360px;
 	background: rgb(248, 248, 248);
 }
+
+.dark:hover {
+display: flex;
+}
+
 
 .div_section3 h3 {
 	height: 16px;
@@ -359,6 +382,38 @@ img {
 	font-weight: 400;
 	line-height: 17px;
 	padding: 7px 7px 6px 8px;
+}
+
+.block3 {
+	display: flex;
+	justify-content: space-between;
+	/* gap: 30px; */
+	padding: 24px 230px;
+	background: rgb(34, 34, 36);
+	/* margin: 0; */
+	align-items: center;
+}
+
+.text_undeground {
+	color: rgb(251, 251, 251);
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+.link {
+	display: flex;
+	gap: 7.29px;
+}
+
+.link a {
+	width: 32px;
+	height: 32px;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
