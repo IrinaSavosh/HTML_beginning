@@ -7,32 +7,73 @@
 		<title>Home Work 6</title>
 	</head>
 	<body>
+		<h1 style="display: none">Интернет магазин одежды</h1>
 		<header class="header container">
 			<nav class="header_btn">
+				<h1 style="display: none">Навигационная панель сайта</h1>
 				<div class="btn_pos cont1">
-					<button class="btn">
-						<a href="#"> <img src="./img/Logo.svg" alt="Logo" /></a>
-					</button>
+					<nav class="btn">
+						<h1 style="display: none">Логотип и строка поиска</h1>
+						<a href="#"><img src="./img/Logo.svg" alt="Logo" /></a>
+					</nav>
 					<button class="btn">
 						<img src="./img/Search.svg" alt="Search" />
 					</button>
 				</div>
 				<div class="btn_pos cont2">
-					<button class="btn"><img src="./img/Menu.svg" alt="Menu bar" /></button>
+					<button class="btn btn_burger"><img class="btn_burger" src="./img/Menu.svg" alt="Menu bar" /></button>
 					<button class="btn hide"><img src="./img/Cabinet.svg" alt="Personal cabinet" /></button>
 					<button class="btn hide"><img src="./img/Basket.svg" alt="Shopping cart" /></button>
 					<div class="five"><span class="text_five">5</span></div>
 				</div>
 			</nav>
 		</header>
+		<div class="menu-active hidden_burger">
+			<div class="menu-active__all">
+				<button class="menu-close">
+					<img src="./img/close.png" alt="close" />
+				</button>
+
+				<h4 class="menu-heading">MENU</h4>
+				<div class="menu">
+					<h5 class="menu-text">MAN</h5>
+					<ul class="menu-list">
+						<li><a href="#">Accesories</a></li>
+						<li><a href="#">Bags</a></li>
+						<li><a href="#">Denim</a></li>
+						<li><a href="#">T-shirts</a></li>
+					</ul>
+				</div>
+				<div class="menu">
+					<h5 class="menu-text">WOMAN</h5>
+					<ul class="menu-list">
+						<li><a href="#">Accesories</a></li>
+						<li><a href="#">Jackets & Coat</a></li>
+						<li><a href="#">Polos</a></li>
+						<li><a href="#">T-shirts</a></li>
+						<li><a href="#">Shirts</a></li>
+					</ul>
+				</div>
+				<div class="menu">
+					<h5 class="menu-text">KIDS</h5>
+					<ul class="menu-list">
+						<li><a href="#">Accesories</a></li>
+						<li><a href="#">Jackets & Coat</a></li>
+						<li><a href="#">Polos</a></li>
+						<li><a href="#">T-shirts</a></li>
+						<li><a href="#">Shirts</a></li>
+						<li><a href="#">Bags</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- </div> -->
 		<main class="container">
-			<section class="pos_section1">
+			<div class="pos_section1">
 				<img src="./img/Parka.png" alt="Main poster" class="parka hide" />
-
-				<div class="div_txt"><img src="./img/Text.png" alt="Text" class="text" /></div>
-			</section>
-
-			<section class="pos_section2">
+				<div class="div_txt"><img class="text" src="./img/Text.png" alt="Text" /></div>
+			</div>
+			<div class="pos_section2">
 				<article class="items width_tablet">
 					<div class="item">
 						<img src="./img/For_women.png" alt="" />
@@ -42,7 +83,6 @@
 						<h2>FOR WOMEN</h2>
 					</div>
 				</article>
-
 				<article class="items width_tablet">
 					<div class="item">
 						<img src="./img/For_men.png" alt="" />
@@ -66,16 +106,16 @@
 						<img src="./img/Accesories.png" alt="Accesories" class="item4" />
 					</div>
 					<div class="item">
-						<h3>LUXIROUS & TRENDY</h3>
+						<h3>LUXIROUS &amp;&nbsp;TRENDY</h3>
 						<h2>ACCESORIES</h2>
 					</div>
 				</article>
-			</section>
+			</div>
 			<div>
 				<h3 class="categoryH3">Fetured Items</h3>
 				<p class="categoryP">Shop for items based on what we featured in this week</p>
 			</div>
-			<section class="section3">
+			<div class="section3">
 				<article class="pos_section3">
 					<div class="div_section3">
 						<div class="items">
@@ -123,14 +163,14 @@
 								</button>
 							</div>
 						</div>
-
 						<h3>ELLERY X M'O CAPSULE</h3>
 						<p class="textS3">
 							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
 							with Moda Operandi.
 						</p>
 						<p class="price">$52.00</p>
-					</div><div class="div_section3">
+					</div>
+					<div class="div_section3">
 						<div class="items">
 							<div class="item"><img src="./img/4.png" alt="Photo" class="" /></div>
 							<div class="item dark">
@@ -140,14 +180,14 @@
 								</button>
 							</div>
 						</div>
-
 						<h3>ELLERY X M'O CAPSULE</h3>
 						<p class="textS3">
 							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
 							with Moda Operandi.
 						</p>
 						<p class="price">$52.00</p>
-					</div><div class="div_section3">
+					</div>
+					<div class="div_section3">
 						<div class="items">
 							<div class="item"><img src="./img/5.png" alt="Photo" class="" /></div>
 							<div class="item dark">
@@ -164,7 +204,8 @@
 							with Moda Operandi.
 						</p>
 						<p class="price">$52.00</p>
-					</div><div class="div_section3">
+					</div>
+					<div class="div_section3">
 						<div class="items">
 							<div class="item"><img src="./img/6.png" alt="Photo" class="" /></div>
 							<div class="item dark">
@@ -186,19 +227,18 @@
 				<div class="hidden">
 					<button class="btn_down">Browse All Product</button>
 				</div>
-			</section>
+			</div>
 		</main>
 		<footer class="footer">
-			<section class="block1">
+			<div class="block1">
 				<article class="pos_center">
 					<img src="./img/truck.svg" alt="Truck" />
-
 					<h4>Free Delivery</h4>
 					<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
 				</article>
 				<article class="pos_center">
 					<img src="./img/percentage.svg" alt="Percentage" />
-					<h4>Sales & discounts</h4>
+					<h4>Sales &amp;&nbsp;discounts</h4>
 					<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
 				</article>
 				<article class="pos_center">
@@ -206,7 +246,7 @@
 					<h4>Quality assurance</h4>
 					<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
 				</article>
-			</section>
+			</div>
 			<section class="container items cont_foo">
 				<div class="item img_background container">
 					<img class="back_footer" src="./img/Back_footer.svg" alt="" />
@@ -226,16 +266,18 @@
 					</div>
 				</div>
 			</section>
-			<section class="block3">
-				<p class="text_undeground">© 2022 Brand All Rights Reserved.</p>
+			<div class="block3">
+				<p class="text_underground">© 2022 Brand All Rights Reserved.</p>
 
 				<nav class="link">
+					<h1 style="display: none">Ссылки на социальные сети</h1>
 					<a href="#"><img src="./img/facebook.svg" alt="" /></a>
 					<a href="#"><img src="./img/insta.svg" alt="" /></a>
 					<a href="#"><img src="./img/pinta.svg" alt="" /></a>
 					<a href="#"><img src="./img/twitter.svg" alt="" /></a>
 				</nav>
-			</section>
+			</div>
 		</footer>
+		<script src="./script.js"></script>
 	</body>
 </html>
